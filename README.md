@@ -8,22 +8,27 @@ https://google.github.io/adk-docs/
 
 ## Setup
 
-**Create the Virtual Enviroment**
+**Install python UV package manager**
+- https://docs.astral.sh/uv/getting-started/installation/
+
+then 👇
+
+**1. Create the Virtual Enviroment**
 ```console
 uv venv
 ```
 
-**Install the Package Dependencies**
+**2. Install the Package Dependencies**
 ```console
 uv pip install --upgrade -r pyproject.toml
 ```
 
-**Rename the file .env.example to .env. This new file will hold your secret API keys, which must never be shared**
+**3. Rename the file .env.example to .env. This new file will hold your secret API keys, which must never be shared**
 ```console
 mv multi_tool_agent/.env.example multi_tool_agent/.env
 ```
 
-**Run the ADK enviroment**
+**4. Run the ADK enviroment**
 ```console
 adk web
 ```
