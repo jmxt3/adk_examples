@@ -18,6 +18,11 @@ uv venv
 uv pip install --upgrade -r pyproject.toml
 ```
 
+**Rename the file .env.example to .env. This new file will hold your secret API keys, which must never be shared**
+```console
+mv multi_tool_agent/.env.example multi_tool_agent/.env
+```
+
 **Run the ADK enviroment**
 ```console
 adk web
