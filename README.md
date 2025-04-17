@@ -15,7 +15,7 @@ then 👇
 
 **1. Create the Virtual Enviroment**
 ```console
-uv venv
+uv venv --python 3.10
 ```
 
 **2. Install the Package Dependencies**
