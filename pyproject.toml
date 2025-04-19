@@ -5,6 +5,7 @@ description = "Google Agent Development Kit (ADK) Examples"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "fastapi[standard]>=0.115.12",
     "google-adk>=0.1.0",
     "litellm>=1.66.2",
     "load-dotenv>=0.1.0",
