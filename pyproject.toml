@@ -5,10 +5,14 @@ description = "Google Agent Development Kit (ADK) Examples"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "cloudpickle>=3.1.1",
     "fastapi[standard]>=0.115.12",
     "google-adk>=0.1.0",
     "google-cloud-aiplatform[adk,agent-engines]>=1.89.0",
     "litellm>=1.66.2",
     "load-dotenv>=0.1.0",
     "logging>=0.4.9.6",
+    "mcp-server-time>=0.6.2",
+    "pydantic>=2.11.3",
+    "requests>=2.32.3",
 ]
